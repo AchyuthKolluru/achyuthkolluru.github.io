@@ -40,6 +40,11 @@ Applied Machine Learning, Computer Vision, Modern Applied Statistics, Fundamenta
 **Project Demonstration:**  
 ![Morning Star Project GIF](assets/gifs/results.gif)
 
+**Project Demonstration:**  
+<div style="text-align: center;">
+  <img src="assets/gifs/results.gif" alt="Morning Star Project GIF" width="600px"/>
+</div>
+
 ## Relevant Projects
 
 ### Delivery Simulation
