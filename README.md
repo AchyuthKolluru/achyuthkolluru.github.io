@@ -37,12 +37,10 @@ Applied Machine Learning, Computer Vision, Modern Applied Statistics, Fundamenta
 **Project Poster:**  
 ![Morning Star Software Internship](assets/images/2022-08-Fall-CSE-Team315-poster.png)
 
-**Project Demonstration:**  
-![Morning Star Project GIF](assets/gifs/results.gif)
 
 **Project Demonstration:**  
 <div style="text-align: center;">
-  <img src="assets/gifs/results.gif" alt="Morning Star Project GIF" width="600px"/>
+  <img src="assets/gifs/results.gif" alt="Morning Star Project GIF" width="800px"/>
 </div>
 
 ## Relevant Projects
