@@ -1,5 +1,3 @@
-# Achyuth Kolluru
-
 ## Contact Information
 - **Email:** achyuthkolluru2@gmail.com
 - **GitHub:** [Github](https://github.com/AchyuthKolluru)
