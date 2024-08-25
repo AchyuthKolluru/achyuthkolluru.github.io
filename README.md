@@ -2,8 +2,8 @@
 
 ## Contact Information
 - **Email:** achyuthkolluru2@gmail.com
-- **GitHub:** [[Your GitHub Profile URL]](https://github.com/AchyuthKolluru)
-- **LinkedIn:** [[Your LinkedIn Profile URL]](https://www.linkedin.com/in/achyuth-kolluru)
+- **GitHub:** [[Github]](https://github.com/AchyuthKolluru)
+- **LinkedIn:** [[Linkedin]](https://www.linkedin.com/in/achyuth-kolluru)
 
 ## About
 A current Masters student in the Masters of Information and Data Science Program at UC Berkeley, with a strong academic background from the University of California, Merced, holding a major in Computer Science and a minor in Applied Mathematics. Fascination with vision-based systems in computer science led to internships at Lawrence Livermore National Laboratory and Morning Star, working on advanced projects involving ECG data analysis and computer vision. A deep interest in machine learning, particularly in its applications in biology and cognitive science, continues to drive academic pursuits, alongside a dedication to advocating for individual privacy in AI advancements, ensuring that technological innovation aligns with ethical considerations.
