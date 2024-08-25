@@ -27,16 +27,16 @@ Applied Machine Learning, Computer Vision, Modern Applied Statistics, Fundamenta
 ## Experience
 
 ### Data Science Intern | Lawrence Livermore National Laboratory | June 2023 - July 2023
-Engaged in a comprehensive ECG data analysis initiative at Lawrence Livermore National Laboratory, focusing on heartbeat classification, activation map reconstruction, and trans-membrane potential interpretation using advanced machine learning techniques. A convolutional neural network, inspired by the AlexNet architecture, was developed, achieving a 94% test accuracy in reconstructing 75 trans-membrane voltage signals over a 500-millisecond span. This work significantly advanced the understanding of complex ECG data and contributed to the development of more accurate predictive models.
+Conducted ECG data analysis, focusing on heartbeat classification, activation map reconstruction, and trans-membrane potential interpretation. Developed a convolutional neural network, based on AlexNet, that achieved 94% test accuracy in reconstructing 75 trans-membrane voltage signals over 500 milliseconds, enhancing the accuracy of predictive models.
 
 **Project Presentation:**  
 ![LLNL Data Science Project](assets/images/DSC_poster_template.jpg)
 
 ### Research Assistant | University of California Merced | November 2022 - May 2023
-As a research assistant in advanced video processing, a cubic interpolation method was developed, enhancing video frame rates by incorporating the derivative of acceleration (Jerk) with deep learning techniques. The project also applied optical flow estimation techniques, such as PWC-Net, to improve the Peak Signal-to-Noise Ratio (PSNR) of interpolated images. The implementation of these techniques using PyTorch and CUDA resulted in a 20% improvement in PSNR compared to previous methods.
+Developed a cubic interpolation method for video frame rate enhancement by incorporating the derivative of acceleration (Jerk) with deep learning. Applied optical flow estimation techniques, including PWC-Net, to improve the Peak Signal-to-Noise Ratio (PSNR) of interpolated images by 20% using PyTorch and CUDA.
 
 ### Software Engineer Intern | Morning Star | August 2022 - December 2022
-During the Software Engineer Internship at Morning Star, a computer vision project was spearheaded to employ Yolov4 Tiny and DeepSort for real-time detection, tracking, and counting of tomatoes during harvesting. Rigorous data extraction and meticulous labeling of a 3,000-image dataset facilitated efficient model training. A notification system was also developed to alert operators when tomato counts surpassed set thresholds, promoting operational efficiency and resource conservation. The project achieved a 78% accuracy rate under varying farming conditions and was recognized as the Top Finisher at the Innovate to Grow Event.
+Led a computer vision project using Yolov4 Tiny and DeepSort for real-time detection, tracking, and counting of tomatoes during harvesting. Managed data extraction and labeling for a 3,000-image dataset, which facilitated efficient model training. Developed a notification system to alert operators when tomato counts exceeded thresholds. The project achieved 78% accuracy and was recognized as the Top Finisher at the Innovate to Grow Event.
 
 **Project Poster:**  
 ![Morning Star Software Internship](assets/images/2022-08-Fall-CSE-Team315-poster.png)
