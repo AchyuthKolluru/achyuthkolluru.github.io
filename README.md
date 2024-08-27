@@ -20,6 +20,8 @@ A current Master's student in the Masters of Information and Data Science Progra
 **Selected Coursework:**  
 Applied Machine Learning | Computer Vision | Modern Applied Statistics | Fundamentals of Data Engineering | Statistical Methods of Time Series Data | Machine Learning at Scale
 
+<br />
+
 ## Programming Skills
 - **Languages:** Python, C++, MATLAB, R, C, SQL
 - **Technologies:** TensorFlow, Pytorch, Scikit Learn, Keras, Git, ROS, Linux, Jupyter, Pandas, PostgreSQL, Redis
@@ -46,15 +48,20 @@ Led a computer vision project using Yolov4 Tiny and DeepSort for real-time detec
   <img src="assets/gifs/results.gif" alt="Morning Star Project GIF" width="800px"/>
 </div>
 
+<br />
+<br />
+
 ## Relevant Projects
 
 ### Delivery Simulation
 A package delivery simulation system was created, integrating SQL, MongoDB, and Redis to provide dynamic, real-time feedback throughout the delivery process. Neo4J was employed for advanced route optimization and live tracking of delivery trucks. This solution enhanced logistics efficiency by providing real-time updates and optimized routing, leading to quicker deliveries and more effective resource allocation.
 
-**Project Demonstration:** 
+*Project Demonstration:*
 <div style="text-align: center;">
   <img src="assets/gifs/Delivery.gif" alt="Delivery Simulation" width="800px"/>
 </div>
+
+<br />
 
 ### Analyzing Airbnb Listings in NYC (2019)
 Conducted a thorough analysis of NYC Airbnb 2019 data, focusing on feature engineering to extract meaningful insights and enhance model performance. Multiple predictive models, including linear regression, decision trees, and ensemble methods, were developed and rigorously compared for pricing accuracy. By evaluating key metrics such as RMSE and MAE, the best-performing model was selected to optimize rental price predictions.
@@ -62,18 +69,21 @@ Conducted a thorough analysis of NYC Airbnb 2019 data, focusing on feature engin
 ### Model Error Analysis
 <div style="display: flex; justify-content: space-between;">
   <div style="flex: 1; text-align: center;">
-    <h3>Error Metrics</h3>
-    <img src="assets/images/Errors.png" alt="Errors" width="400px"/>
+    <h4>Error Metrics</h4>
+    <img src="assets/images/Errors.png" alt="Errors" width="600px"/>
   </div>
   <div style="flex: 1; text-align: center;">
-    <h3>Model Performance Comparison</h3>
-    <img src="assets/images/Comparison_models.png" alt="Model Comparisons" width="400px"/>
+    <h4>Model Performance Comparison</h4>
+    <img src="assets/images/Comparison_models.png" alt="Model Comparisons" width="600px"/>
   </div>
 </div>
 
+<br />
 
 ### Image Classification with Transfer Learning
 Transfer learning techniques were implemented using pre-trained models such as VGG16 and ResNet50 to classify images from the CIFAR-10 dataset, achieving an accuracy of 85%.
+
+<br />
 
 ### Time Series Forecasting and Statistical Analysis of CO2 Emissions Trends
 Time series forecasting models, including ARIMA and SARIMA, were developed to analyze trends and seasonal patterns in CO2 emissions data. Extensive statistical analysis, including residual diagnostics and model validation, was conducted to ensure robust predictions. Anomalies in the data were identified and corrected, enhancing the accuracy and reliability of the forecasting models.
