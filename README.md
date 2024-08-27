@@ -64,6 +64,20 @@ Time series forecasting models, including ARIMA and SARIMA, were developed to an
 
 The data spans from 1958 to 1997, using ARIMA to predict both near-term (2022) and long-term (2100) CO2 levels. The upper, expected, and lower bounds indicate when CO2 concentrations are likely to cross critical thresholds of 420 ppm and 500 ppm. These projections help in understanding potential future CO2 trends under various scenarios, providing valuable insights into long-term environmental planning and policy-making.
 
+```{r, echo=FALSE}
+model_info <- data.frame(
+  Model = c("arima_full", "arima_test"),
+  sigma2 = c(0.08603089, 0.08576573),
+  log_lik = c(-85.59152, -85.91671),
+  AIC = c(181.1830, 181.8334),
+  AICc = c(181.3167, 181.9668),
+  BIC = c(201.7845, 202.4459)
+)
+
+knitr::kable(model_info, booktabs = TRUE, caption="Comparison of Models",
+      col.names = c("Model", "sigma^2", "log\\_lik", "AIC", "AICc", "BIC"))
+```
+
 ## Awards and Recognition
 - **Top Finisher** for Innovate to Grow Event for 2022 Fall Software Engineering Capstone
 - **3rd Place Winner** for the Water Hack Challenge 2023 Issued by Secure Water Future
