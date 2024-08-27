@@ -1,5 +1,3 @@
-Portfolio
-
 # Achyuth Kolluru
 
 ## Contact Information
