@@ -11,10 +11,10 @@ Portfolio
 A current Master's student in the Masters of Information and Data Science Program at UC Berkeley, with a strong academic background from the University of California, Merced, holding a major in Computer Science and a minor in Applied Mathematics. Fascination with vision-based systems in computer science led to internships at Lawrence Livermore National Laboratory and Morning Star, working on advanced projects involving ECG data analysis and computer vision. A deep interest in machine learning, particularly in its applications in biology and cognitive science, continues to drive academic pursuits, alongside a dedication to advocating for individual privacy in AI advancements, ensuring that technological innovation aligns with ethical considerations.
 
 ## Education
-- **University of California, Berkeley** (2024 - Present)  
+- **University of California, Berkeley** (January 2024 - May 2025)  
   *Master of Information and Data Science*
 
-- **University of California, Merced** (2019 - 2023)  
+- **University of California, Merced** (August 2019 - May 2023)  
   *Bachelor of Science, Major in Computer Science, Minor in Applied Mathematics*  
   - **Top Finisher** for Innovate to Grow Event for 2022 Fall Software Engineering Capstone  
   - **3rd Place Winner** for the Water Hack Challenge 2023 Issued by Secure Water Future
@@ -51,10 +51,28 @@ Led a computer vision project using Yolov4 Tiny and DeepSort for real-time detec
 ## Relevant Projects
 
 ### Delivery Simulation
-A package delivery simulator was developed at UC Berkeley, integrating SQL, MongoDB, and Redis for dynamic real-time feedback. Neo4J was utilized for route optimization and live truck tracking, significantly enhancing logistics efficiency through real-time updates and optimized routing.
+A package delivery simulation system was created, integrating SQL, MongoDB, and Redis to provide dynamic, real-time feedback throughout the delivery process. Neo4J was employed for advanced route optimization and live tracking of delivery trucks. This solution enhanced logistics efficiency by providing real-time updates and optimized routing, leading to quicker deliveries and more effective resource allocation.
+
+**Project Demonstration:** 
+<div style="text-align: center;">
+  <img src="assets/gifs/Delivery.gif" alt="Delivery Simulation" width="800px"/>
+</div>
 
 ### Analyzing Airbnb Listings in NYC (2019)
-Performed a detailed analysis of NYC Airbnb 2019 data, engineering features and comparing various predictive models for pricing accuracy. Selected the best-performing model to optimize rental price predictions based on key metrics.
+Conducted a thorough analysis of NYC Airbnb 2019 data, focusing on feature engineering to extract meaningful insights and enhance model performance. Multiple predictive models, including linear regression, decision trees, and ensemble methods, were developed and rigorously compared for pricing accuracy. By evaluating key metrics such as RMSE and MAE, the best-performing model was selected to optimize rental price predictions.
+
+### Model Error Analysis
+<div style="display: flex; justify-content: space-between;">
+  <div style="flex: 1; text-align: center;">
+    <h3>Error Metrics</h3>
+    <img src="assets/images/Errors.png" alt="Errors" width="400px"/>
+  </div>
+  <div style="flex: 1; text-align: center;">
+    <h3>Model Performance Comparison</h3>
+    <img src="assets/images/Comparison_models.png" alt="Model Comparisons" width="400px"/>
+  </div>
+</div>
+
 
 ### Image Classification with Transfer Learning
 Transfer learning techniques were implemented using pre-trained models such as VGG16 and ResNet50 to classify images from the CIFAR-10 dataset, achieving an accuracy of 85%.
