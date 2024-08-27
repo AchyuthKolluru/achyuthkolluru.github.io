@@ -18,7 +18,7 @@ A current Master's student in the Masters of Information and Data Science Progra
   - **3rd Place Winner** for the Water Hack Challenge 2023 Issued by Secure Water Future
 
 **Selected Coursework:**  
-Applied Machine Learning, Computer Vision, Modern Applied Statistics, Fundamentals of Data Engineering, Statistical Methods of Time Series Data
+Applied Machine Learning | Computer Vision | Modern Applied Statistics | Fundamentals of Data Engineering | Statistical Methods of Time Series Data | Machine Learning at Scale
 
 ## Programming Skills
 - **Languages:** Python, C++, MATLAB, R, C, SQL
