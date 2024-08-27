@@ -62,6 +62,8 @@ Transfer learning techniques were implemented using pre-trained models such as V
 ### Time Series Forecasting and Statistical Analysis of CO2 Emissions Trends
 Time series forecasting models, including ARIMA and SARIMA, were developed to analyze trends and seasonal patterns in CO2 emissions data. Extensive statistical analysis, including residual diagnostics and model validation, was conducted to ensure robust predictions. Anomalies in the data were identified and corrected, enhancing the accuracy and reliability of the forecasting models.
 
+The data spans from 1958 to 1997, using ARIMA to predict both near-term (2022) and long-term (2100) CO2 levels. The upper, expected, and lower bounds indicate when CO2 concentrations are likely to cross critical thresholds of 420 ppm and 500 ppm. These projections help in understanding potential future CO2 trends under various scenarios, providing valuable insights into long-term environmental planning and policy-making.
+
 ## Awards and Recognition
 - **Top Finisher** for Innovate to Grow Event for 2022 Fall Software Engineering Capstone
 - **3rd Place Winner** for the Water Hack Challenge 2023 Issued by Secure Water Future
