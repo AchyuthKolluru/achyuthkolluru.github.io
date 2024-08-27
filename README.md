@@ -69,6 +69,7 @@ The data spans from 1958 to 1997, using ARIMA to predict both near-term (2022) a
 | arima_full | 0.0860309 | -85.59152| 181.1830 | 181.3167 | 201.7845 |
 | arima_test | 0.0857657 | -85.91671| 181.8334 | 181.9668 | 202.4459 |
 
+![ARIMA Models](assets/images/ARIMA.png)
 
 ## Awards and Recognition
 - **Top Finisher** for Innovate to Grow Event for 2022 Fall Software Engineering Capstone
