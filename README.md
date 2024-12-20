@@ -109,6 +109,86 @@ The data spans from 1958 to 1997, using ARIMA to predict both near-term (2022) a
 
 ![ARIMA Models](assets/images/ARIMA.png)
 
+
+# Human Action Recognition (HAR) using Computer Vision
+
+## Overview
+This project involved developing a Human Action Recognition system to classify human activities in images using machine learning and computer vision techniques. The dataset contained 15 different human activities, with a total of 12,600 training images and 5,410 test images. Several image processing techniques were applied to extract meaningful features for classification.
+
+## Feature Extraction Techniques
+Below are the key image processing techniques used for feature extraction:
+
+### 1. Original Image
+The dataset images were standardized to 256x256 pixels. Below is an example of an original image:
+
+![Original Image](assets/images/Sitting.png)
+
+### 2. Grayscale Conversion
+Converted the images to grayscale to simplify the information while retaining essential details for classification.
+
+![Grayscale Image](assets/images/sitting_grey.png)
+
+### 3. Edge Detection (Canny)
+Used the Canny edge detection algorithm to highlight the important structural features of the image.
+
+![Edge Detection](assets/images/sitting_edge.png)
+
+### 4. Histogram of Oriented Gradients (HOG)
+Applied HOG to capture gradient-based features that describe the shapes and contours of the image, which are crucial for action recognition.
+
+![HOG Features](assets/images/sitting_hog.png)
+
+### 5. Local Binary Patterns (LBP)
+Extracted texture-based features using LBP, which helps capture fine-grained patterns critical for recognizing different human actions.
+
+![LBP Features](assets/images/sitting_LBP.png)
+
+### 6. Template Matching
+Template matching was applied to detect predefined patterns of human actions in the images.
+
+![Template Matching](assets/images/sitting.png)
+
+## Model Evaluation
+
+After preprocessing and feature extraction, several machine learning models were trained to classify the actions.
+
+### Models Used:
+- **Logistic Regression**
+- **Random Forest**
+- **XGBoost**
+- **Custom Convolutional Neural Network (CNN)**
+- **Transfer Learning with VGG16**
+
+### Performance Evaluation
+
+The model was evaluated using the following metrics:
+- **Accuracy**
+- **Precision**
+- **Recall**
+- **F1-score**
+
+### 1. Confusion Matrix
+The confusion matrix of the best-performing model, based on the preprocessed features, is shown below:
+
+![Confusion Matrix](assets/images/Best_confusion.png)
+
+### 2. ROC Curve
+The ROC curve for the model illustrates its performance in distinguishing between different classes.
+
+![ROC Curve](assets/images/Best_ROC.png)
+
+---
+
+## Conclusion
+This project successfully applied a combination of computer vision techniques for feature extraction and machine learning models for action recognition. The model was evaluated using confusion matrices and ROC curves to assess its performance. Future work may involve fine-tuning the model with more advanced techniques, such as deep learning.
+
+---
+
+## GitHub Repository
+[Link to GitHub repository](https://github.com/username/har_project)
+
+
+
 ## Awards and Recognition
 - **Top Finisher** for Innovate to Grow Event for 2022 Fall Software Engineering Capstone
 - **3rd Place Winner** for the Water Hack Challenge 2023 Issued by Secure Water Future
