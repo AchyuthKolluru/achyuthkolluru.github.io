@@ -53,10 +53,22 @@ Led a computer vision project using Yolov4 Tiny and DeepSort for real-time detec
 
 ## Relevant Projects
 
+### Flight Delay Prediction and Analysis
+**Description:**  
+Developed a machine learning-based system for predicting flight delays using a large-scale historical flight dataset (approximately 30GB). The project involved extensive **data preprocessing**, including handling missing values, encoding categorical variables, and feature engineering to enhance model performance. Various machine learning models, including **Random Forest**, **XGBoost**, and **Linear Regression**, were applied to predict flight delays. 
+
+Model performance was evaluated using metrics such as **accuracy**, **precision**, **recall**, and **F1 score** to assess the effectiveness of each algorithm. To efficiently process the large dataset, **PySpark ML** was leveraged for **parallelized data processing** and **model training**. This approach utilized only **CPU parallelization**, ensuring scalable and high-performance execution even with the large 30GB dataset. The system demonstrated the ability to scale efficiently with large data and deliver real-time predictive capabilities for flight delay analysis.
+
+The project showcases expertise in **predictive modeling**, **feature engineering**, and **distributed computing** with a focus on time-sensitive predictions, making it well-suited for real-world flight delay forecasting and optimization.
+
+**GitHub Repository:**  
+[https://github.com/AchyuthKolluru/Flight-Delay-Prediction-and-Analysis]
+
+
 ### Delivery Simulation
 A package delivery simulation system was created, integrating SQL, MongoDB, and Redis to provide dynamic, real-time feedback throughout the delivery process. Neo4J was employed for advanced route optimization and live tracking of delivery trucks. This solution enhanced logistics efficiency by providing real-time updates and optimized routing, leading to quicker deliveries and more effective resource allocation.
 
-*Project Demonstration:*
+*Project Demonstration:*  
 <div style="text-align: center;">
   <img src="assets/gifs/Delivery.gif" alt="Delivery Simulation" width="800px"/>
 </div>
@@ -100,5 +112,3 @@ The data spans from 1958 to 1997, using ARIMA to predict both near-term (2022) a
 ## Awards and Recognition
 - **Top Finisher** for Innovate to Grow Event for 2022 Fall Software Engineering Capstone
 - **3rd Place Winner** for the Water Hack Challenge 2023 Issued by Secure Water Future
-
-
