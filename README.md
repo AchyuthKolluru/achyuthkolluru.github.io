@@ -146,7 +146,7 @@ Extracted texture-based features using LBP, which helps capture fine-grained pat
 ### 6. Template Matching
 Template matching was applied to detect predefined patterns of human actions in the images.
 
-![Template Matching](assets/images/sitting.png)
+![Template Matching](assets/images/sitting.jpg)
 
 ## Model Evaluation
 
@@ -170,7 +170,7 @@ The model was evaluated using the following metrics:
 ### 1. Confusion Matrix
 The confusion matrix of the best-performing model, based on the preprocessed features, is shown below:
 
-![Confusion Matrix](assets/images/Best_confusion.png)
+![Confusion Matrix](assets/images/Best_Confusion.png)
 
 ### 2. ROC Curve
 The ROC curve for the model illustrates its performance in distinguishing between different classes.
