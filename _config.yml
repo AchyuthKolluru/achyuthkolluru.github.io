@@ -1,8 +1,37 @@
 title: Portfolio of Projects
-#logo :
-#description: text below image
-show_downloads: true
-# remote_theme: pages-themes/tactile@v0.2.0
-# plugins:
-# - jekyll-remote-theme # add this line to the plugins list if you already have one
-theme: jekyll-theme-minimal
+description: "A showcase of academic, professional, and personal projects demonstrating technical expertise and creativity."
+# logo: /assets/images/logo.png # Optional: Add a logo for branding.
+theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag # Improves search engine optimization
+  - jekyll-sitemap # Adds a sitemap for better indexing
+  - jekyll-feed # Adds an RSS feed for your site
+  - jekyll-paginate # Supports pagination for blog posts
+  - jekyll-include-cache # Improves performance for includes
+
+# Navigation bar configuration
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
+
+# Social links (customize with your profiles)
+author:
+  name: Achyuth Kolluru
+  email: achyuthkolluru2@gmail.com
+  social:
+    linkedin: https://www.linkedin.com/in/achyuth-kolluru
+    github: https://github.com/AchyuthKolluru
+
+# Footer customization
+footer:
+  links:
+    - title: "Portfolio"
+      url: /projects/
+    - title: "About"
+      url: /about/
+    - title: "Contact"
+      url: /contact/
