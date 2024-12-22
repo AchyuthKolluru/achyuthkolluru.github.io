@@ -1,22 +1,28 @@
-title: Portfolio of Projects
-description: "A showcase of academic, professional, and personal projects demonstrating technical expertise and creativity."
-# logo: /assets/images/logo.png # Optional: Add a logo for branding.
-theme: minimal-mistakes-jekyll
-remote_theme: mmistakes/minimal-mistakes
+title: "Portfolio of Projects"
+description: "A showcase of projects blending technical expertise, creativity, and passion for innovation."
+remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-remote-theme
-  - jekyll-seo-tag # Improves search engine optimization
-  - jekyll-sitemap # Adds a sitemap for better indexing
-  - jekyll-feed # Adds an RSS feed for your site
-  - jekyll-paginate # Supports pagination for blog posts
-  - jekyll-include-cache # Improves performance for includes
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
 
-# Navigation bar configuration
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: single
+# Just the Docs settings
+just_the_docs:
+  # Logo and favicon customization
+  logo: /assets/images/logo.png # Add your logo image here
+  favicon: /assets/images/favicon.ico # Add a favicon for branding
+
+  # Navigation configuration
+  primary_navigation:
+    - title: "Home"
+      url: /
+    - title: "Projects"
+      url: /projects/
+    - title: "About"
+      url: /about/
+    - title: "Contact"
+      url: /contact/
 
 # Social links (customize with your profiles)
 author:
@@ -25,13 +31,3 @@ author:
   social:
     linkedin: https://www.linkedin.com/in/achyuth-kolluru
     github: https://github.com/AchyuthKolluru
-
-# Footer customization
-footer:
-  links:
-    - title: "Portfolio"
-      url: /projects/
-    - title: "About"
-      url: /about/
-    - title: "Contact"
-      url: /contact/
