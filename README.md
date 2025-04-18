@@ -57,6 +57,7 @@ Led a computer vision project using Yolov4 Tiny and DeepSort for real-time detec
 **Description:** Brooke is an AI‑powered real estate assistant that provides end‑to‑end homebuying guidance. Built with Python, Gradio, LangChain (Chroma + HuggingFaceEmbeddings), and Folium, it features a specialized chatbot that answers location‑specific questions, an interactive budget calculator that simulates financial scenarios, and a dynamic market trends dashboard with Altair charts and comparative maps. Users receive personalized, data‑driven insights—such as median sale price forecasts and inventory levels—tailored to their selected metro areas and neighborhoods, all without the cost of a traditional broker.
 
 More iformation and Demo can be viewed at iSchool Berkeley.
+
 **Demo & Details:** [View on iSchool Berkeley](https://www.ischool.berkeley.edu/projects/2025/brooke-ai-broker)
 
 
