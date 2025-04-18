@@ -1,3 +1,4 @@
+# _config.yml
 title: "Portfolio of Projects"
 description: "A showcase of projects blending technical expertise, creativity, and passion for innovation."
 remote_theme: pmarsceill/just-the-docs
@@ -7,13 +8,15 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
+# Collections
+collections:
+  projects:
+    output: true
+
 # Just the Docs settings
 just_the_docs:
-  # Logo and favicon customization
-  logo: /assets/images/logo.png # Add your logo image here
-  favicon: /assets/images/favicon.ico # Add a favicon for branding
-
-  # Navigation configuration
+  logo: /assets/images/logo.png
+  favicon: /assets/images/favicon.ico
   primary_navigation:
     - title: "Home"
       url: /
@@ -24,7 +27,7 @@ just_the_docs:
     - title: "Contact"
       url: /contact/
 
-# Social links (customize with your profiles)
+# Author / social config
 author:
   name: Achyuth Kolluru
   email: achyuthkolluru2@gmail.com

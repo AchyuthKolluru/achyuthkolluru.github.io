@@ -53,6 +53,39 @@ Led a computer vision project using Yolov4 Tiny and DeepSort for real-time detec
 
 ## Relevant Projects
 
+### Brooke AI Broker (Capstone Project)
+**Description:** Brooke is an AI‑powered real estate assistant that provides end‑to‑end homebuying guidance. Built with Python, Gradio, LangChain (Chroma + HuggingFaceEmbeddings), and Folium, it features a specialized chatbot that answers location‑specific questions, an interactive budget calculator that simulates financial scenarios, and a dynamic market trends dashboard with Altair charts and comparative maps. Users receive personalized, data‑driven insights—such as median sale price forecasts and inventory levels—tailored to their selected metro areas and neighborhoods, all without the cost of a traditional broker.
+
+More iformation and Demo can be viewed at iSchool Berkeley.
+**Demo & Details:** [View on iSchool Berkeley](https://www.ischool.berkeley.edu/projects/2025/brooke-ai-broker)
+
+
+### Hybrid Sentiment-Driven Stock Forecasting
+
+**GitHub Repository:**  
+[https://github.com/AchyuthKoll/w266_Project](https://github.com/AchyuthKoll/w266_Project)
+
+**Project Report (PDF):**  
+[Read the Full Paper](assets/Twitter_Sentiment_Report.pdf)
+
+**Description:**  
+This project explores a hybrid forecasting system that integrates transformer-based sentiment analysis with historical market data to predict next-day stock returns. Using over **68,000 financial tweets** labeled with bullish/neutral/bearish sentiment and **10 years of Yahoo Finance data**, two transformer models—**BERT** and **FinBERT**—were fine-tuned and analyzed with varying pooling strategies (CLS, mean, max).
+
+Daily sentiment embeddings were generated and aggregated by ticker, then merged with financial indicators such as returns and volatility. These features were fed into Dense and LSTM-based neural networks under different configurations: **price-only**, **sentiment-only**, and **combined**. Hyperparameter tuning was performed using **Optuna**, and final models were evaluated using **Mean Absolute Error (MAE)** and **directional accuracy**.
+
+**Highlights:**
+- Achieved **71% validation accuracy** in tweet sentiment classification.
+- LSTM with mean-pooled FinBERT embeddings reached **56.8% directional accuracy**, outperforming the naive baseline.
+- Dense network with CLS embeddings yielded the lowest MAE and robust predictive performance.
+
+**Skills & Tools:**  
+PyTorch, HuggingFace Transformers, TensorFlow, Optuna, LSTM, Time Series Forecasting, Financial NLP, Data Aggregation, Visualization
+
+---
+
+
+
+
 ### Flight Delay Prediction and Analysis
 **Description:**  
 Developed a machine learning-based system for predicting flight delays using a large-scale historical flight dataset (approximately 30GB). The project involved extensive **data preprocessing**, including handling missing values, encoding categorical variables, and feature engineering to enhance model performance. Various machine learning models, including **Random Forest**, **XGBoost**, and **Linear Regression**, were applied to predict flight delays. 
