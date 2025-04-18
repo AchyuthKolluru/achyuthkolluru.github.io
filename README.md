@@ -67,7 +67,7 @@ More iformation and Demo can be viewed at iSchool Berkeley.
 [https://github.com/AchyuthKoll/w266_Project](https://github.com/AchyuthKoll/w266_Project)
 
 **Project Report (PDF):**  
-[Read the Full Paper](assets/Twitter Sentiment.pdf)
+[Read the Full Paper](assets/Twitter_Sentiment.pdf)
 
 **Description:**  
 This project explores a hybrid forecasting system that integrates transformer-based sentiment analysis with historical market data to predict next-day stock returns. Using over **68,000 financial tweets** labeled with bullish/neutral/bearish sentiment and **10 years of Yahoo Finance data**, two transformer models—**BERT** and **FinBERT**—were fine-tuned and analyzed with varying pooling strategies (CLS, mean, max).
