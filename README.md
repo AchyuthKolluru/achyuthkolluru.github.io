@@ -1,5 +1,7 @@
 # Achyuth Kolluru
 
+[Download Resume](/Achyuth.pdf){: .btn .btn-primary .resume-button }
+
 ## Contact Information
 - **Email:** achyuthkolluru2@gmail.com
 - **GitHub:** [Github](https://github.com/AchyuthKolluru)
